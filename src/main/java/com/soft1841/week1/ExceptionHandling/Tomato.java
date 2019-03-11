@@ -1,4 +1,4 @@
-package com.soft1841.week1.XiHouShi;
+package com.soft1841.week1.ExceptionHandling;
 
 import java.util.Scanner;
 
