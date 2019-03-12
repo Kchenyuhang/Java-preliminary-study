@@ -1,4 +1,4 @@
-package com.soft1841.week1.ExceptionHandling;
+package com.soft1841.week1.exceptionhandling;
 
 import java.util.Scanner;
 

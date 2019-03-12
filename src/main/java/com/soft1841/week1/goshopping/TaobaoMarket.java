@@ -1,4 +1,4 @@
-package com.soft1841.week1.GoShopping;
+package com.soft1841.week1.goshopping;
 
 /**
  * 定义一个TaobaoMarket类，继承自Market抽象类，实现其中的shop()抽象方法

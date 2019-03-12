@@ -1,4 +1,4 @@
-package com.soft1841.week1.DrawImage;
+package com.soft1841.week1.drawImage;
 
 
 /**
