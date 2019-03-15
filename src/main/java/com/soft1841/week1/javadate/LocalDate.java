@@ -16,7 +16,7 @@ import static java.time.temporal.ChronoUnit.YEARS;
  */
 public class LocalDate {
     public static void main(String[] args) {
-   java.time.LocalDate today = java.time.LocalDate.now();
+        java.time.LocalDate today = java.time.LocalDate.now();
         System.out.println("Today's Local date : "+today);
         //在Java 8中获取年、月、日信息
         java.time.LocalDate today1 = java.time.LocalDate.now();
