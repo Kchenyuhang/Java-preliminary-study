@@ -4,7 +4,7 @@ package com.soft1841.week1;
 /**
  * String、StringBuffer、StringBuiler的比较
  * @author 陈宇航
- * 20196.3.16
+ * 2019.3.16
  */
 public class StringTest {
     //定义次数
