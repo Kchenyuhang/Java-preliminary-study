@@ -26,7 +26,7 @@ public class HashSetTest {
 //        set.add(s2);
 //        set.add(s3);
 //        set.add(s4);
-//        System.out.println(set);
+//        System.out.println(set);那你
         //用for循环遍历set集合
         System.out.println("for循环遍历结果");
         Object[] array = set.toArray();
