@@ -17,7 +17,6 @@ public class ImageFrame extends JFrame {
     private JLabel imgLabel;
     private JLabel pathLabel;
     private JLabel nameLabel;
-    private JLabel sizeLabel;
     private JLabel timeLabel;
     private Icon icon;
 
