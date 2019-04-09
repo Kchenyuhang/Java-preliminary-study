@@ -43,7 +43,6 @@ public class CarouselThread implements Runnable{
             } catch (IOException e) {
                 System.out.println("IO异常");
             }
-
         }
     }
 }
