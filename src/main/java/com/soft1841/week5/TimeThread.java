@@ -30,9 +30,4 @@ public class TimeThread extends Thread {
             }
         }
     }
-
-    public static void main(String[] args) {
-        TimeThread timeThread = new TimeThread();
-        timeThread.start();
-    }
 }
