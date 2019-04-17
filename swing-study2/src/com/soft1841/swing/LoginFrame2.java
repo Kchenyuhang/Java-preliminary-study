@@ -22,7 +22,7 @@ public class LoginFrame2 extends JFrame {
         //窗体大小不可变
         setResizable(false);
         setVisible(true);
-        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
     private void init() {
