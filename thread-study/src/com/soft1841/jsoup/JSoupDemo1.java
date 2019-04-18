@@ -1,4 +1,4 @@
-package com.soft1841;
+package com.soft1841.jsoup;
 
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
