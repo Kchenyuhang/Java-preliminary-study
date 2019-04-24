@@ -27,7 +27,7 @@ public class ImageFrame extends JFrame {
         setSize(1000,600);
         setLocationRelativeTo(null);          //窗体自动居中
         setVisible(true);
-        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
     //设置布局，放置组件
     public void init() throws IOException {

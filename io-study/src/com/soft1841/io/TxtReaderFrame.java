@@ -24,7 +24,7 @@ public class TxtReaderFrame extends JFrame implements ActionListener {
         setSize(new Dimension(640, 480));
         setLocationRelativeTo(null); //居中
         setVisible(true);
-        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
     public void init() {

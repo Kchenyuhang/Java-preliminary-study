@@ -15,7 +15,7 @@ public class CircleFrame extends JFrame {
         setLocationRelativeTo(null);
         setResizable(true);
         setVisible(true);
-        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
     public void init() {

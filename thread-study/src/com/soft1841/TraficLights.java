@@ -19,7 +19,7 @@ public class TraficLights extends JFrame {
         setTitle("交通信号灯");
         setSize(new Dimension(700,400));
         setVisible(true);
-        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
     public void init() {

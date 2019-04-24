@@ -16,7 +16,7 @@ public class NumberFrame extends JFrame implements ActionListener {
         setSize(500,400);
         setLocationRelativeTo(null);
         setVisible(true);
-        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
     private void init(){
         pauseBtn = new JButton("暂停");

@@ -28,7 +28,7 @@ public class JFileChooserTest extends JFrame implements ActionListener {
         setSize(new Dimension(1000, 800));
         setLocationRelativeTo(null);
         setVisible(true);
-        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
     public void init() {

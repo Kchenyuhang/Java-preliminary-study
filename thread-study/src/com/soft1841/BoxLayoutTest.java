@@ -1,4 +1,4 @@
-package com.soft1841.swing;
+package com.soft1841;
 
 import org.jb2011.lnf.beautyeye.BeautyEyeLNFHelper;
 
@@ -17,7 +17,7 @@ public class BoxLayoutTest extends JFrame {
         setSize(410, 730);
         setLocationRelativeTo(null);
         setVisible(true);
-        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
     public void init() {
@@ -61,14 +61,7 @@ public class BoxLayoutTest extends JFrame {
         add(middlePanel, BorderLayout.CENTER);
     }
     public static void main(String[] args) {
-        try {
-            BeautyEyeLNFHelper.frameBorderStyle =
-                    BeautyEyeLNFHelper.FrameBorderStyle.osLookAndFeelDecorated;
-            org.jb2011.lnf.beautyeye.BeautyEyeLNFHelper.launchBeautyEyeLNF();
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        JFrame.setDefaultLookAndFeelDecorated(true);
         new BoxLayoutTest();
     }
 }
