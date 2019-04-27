@@ -12,7 +12,7 @@ public class NumFrame extends JFrame {
         setSize(new Dimension(1500,1000));
         setLocationRelativeTo(null);
         setResizable(false);
-        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
 
     }

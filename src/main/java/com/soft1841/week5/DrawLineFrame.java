@@ -11,7 +11,7 @@ public class DrawLineFrame extends JFrame {
         setSize(1000,600);
         setLocationRelativeTo(null);
         setVisible(true);
-        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
     private void Init(){
         getContentPane().setBackground(new Color(0,0,0));

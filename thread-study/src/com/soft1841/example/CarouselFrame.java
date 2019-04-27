@@ -16,7 +16,7 @@ public class CarouselFrame extends JFrame {
         setTitle("轮播窗体");
         setSize(new Dimension(1500,1000));
         setVisible(true);
-        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
     private void init() {

@@ -74,13 +74,7 @@ public class Login extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        try {
-            BeautyEyeLNFHelper.frameBorderStyle =
-                    BeautyEyeLNFHelper.FrameBorderStyle.osLookAndFeelDecorated;
-            org.jb2011.lnf.beautyeye.BeautyEyeLNFHelper.launchBeautyEyeLNF();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        JFrame.setDefaultLookAndFeelDecorated(true);
         new Login();
     }
 

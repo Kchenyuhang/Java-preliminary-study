@@ -25,7 +25,7 @@ public class ChooseCarouselFrame extends JFrame implements ActionListener {
         setTitle("多选轮播窗体");
         setExtendedState(JFrame.MAXIMIZED_BOTH);
         setVisible(true);
-        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         getContentPane().add(progressBar, BorderLayout.SOUTH);
         // 设置进度条的前景色
         progressBar.setForeground(new Color(0, 210, 40));
