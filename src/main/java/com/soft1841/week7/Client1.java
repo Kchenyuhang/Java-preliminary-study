@@ -1,17 +1,20 @@
 package com.soft1841.week7;
 
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.net.Socket;
+import java.util.Scanner;
 
 public class Client1 {
     public static void main(String[] args) throws IOException {
-        Socket socket = new Socket("192.168.43.232",8989);
-        InputStream in = socket.getInputStream();
-        byte[] b = new byte[1024];
-        in.read(b);
-        System.out.println("服务器发送的数据是：" + new String(b));
-        in.close();
-        socket.close();
+        Socket client = new Socket("192.168.43.232",8989);
+        System.out.println("成功连上服务器");
+        Scanner scanner = new Scanner(System.in);
+        BufferedWriter buf;
+        System.out.println("请输入一行信息：");
+        String str = scanner.nextLine();
+        buf = new BufferedWriter(new OutputStreamWriter(client.getOutputStream()));
+        buf.write(str);
+        buf.flush();
+        buf.close();
     }
 }
