@@ -9,6 +9,7 @@ public class Server {
         //创建服务器对象，映射端口10086
         ServerSocket ss = new ServerSocket(10086);
         System.out.println("服务器启动，端口号：" + ss.getLocalPort());
+        //服务器在10086端口侦听
         while (true) {
             //获得和客户端对象的连接
             Socket socket = ss.accept();
