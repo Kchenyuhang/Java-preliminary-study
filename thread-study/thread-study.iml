@@ -26,5 +26,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module" module-name="King" />
+    <orderEntry type="module" module-name="javastudy" />
   </component>
 </module>
