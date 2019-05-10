@@ -27,5 +27,14 @@
     </orderEntry>
     <orderEntry type="module" module-name="King" />
     <orderEntry type="module" module-name="javastudy" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../socket-study/jar/jsoup-1.11.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
