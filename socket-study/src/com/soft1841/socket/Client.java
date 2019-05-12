@@ -11,5 +11,4 @@ public class Client {
         Socket socket = new Socket("10.40.185.78",1214);
         System.out.println(socket.getInetAddress() + "连接成功");
     }
-
 }
