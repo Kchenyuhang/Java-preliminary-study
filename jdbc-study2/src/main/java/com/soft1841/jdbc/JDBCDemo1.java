@@ -10,7 +10,7 @@ import java.sql.*;
 public class JDBCDemo1 {
     //JDBC 驱动名及数据库连接URL
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://localhost:3306/da_jdbc";
+    static final String DB_URL = "jdbc:mysql://localhost:3306/db_jdbc";
 
     //数据库的用户名与密码
     static final String USER = "root";
