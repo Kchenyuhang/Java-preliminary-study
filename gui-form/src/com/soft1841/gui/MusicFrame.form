@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.soft1841.gui.MusicFrame">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1920" height="719"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="88d34" binding="leftPanel" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="0">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="West"/>
+        <properties>
+          <background color="-657929"/>
+          <preferredSize width="246" height="159"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="6132d" class="javax.swing.JButton" binding="搜索Button" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="搜索"/>
+            </properties>
+          </component>
+          <component id="66788" class="javax.swing.JButton" binding="发现Button" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="发现"/>
+            </properties>
+          </component>
+          <component id="2d0c0" class="javax.swing.JButton" binding="MVButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="MV"/>
+            </properties>
+          </component>
+          <component id="cc60f" class="javax.swing.JButton" binding="朋友Button" default-binding="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="朋友"/>
+            </properties>
+          </component>
+          <vspacer id="a9458">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="c0377" class="javax.swing.JLabel" binding="message1">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="img/S1.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="edd52" binding="centerPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-328966"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="db0b4" class="javax.swing.JLabel" binding="bannerLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="img/M1.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="ef40" binding="musicPanel" layout-manager="FlowLayout" hgap="50" vgap="5" flow-align="0">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-328966"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <hspacer id="a0bae">
+                <constraints/>
+              </hspacer>
+              <component id="56f5a" class="javax.swing.JLabel" binding="music1">
+                <constraints/>
+                <properties>
+                  <icon value="img/F1.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="1109e" class="javax.swing.JLabel" binding="music2">
+                <constraints/>
+                <properties>
+                  <icon value="img/F2.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="39ff9" class="javax.swing.JLabel" binding="music3">
+                <constraints/>
+                <properties>
+                  <icon value="img/F3.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="59a9f" class="javax.swing.JLabel" binding="music4">
+                <constraints/>
+                <properties>
+                  <icon value="img/F4.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="bd12a" class="javax.swing.JLabel" binding="music5">
+                <constraints/>
+                <properties>
+                  <icon value="img/F5.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <component id="e044c" class="javax.swing.JLabel" binding="bottomLabel">
+        <constraints border-constraint="South"/>
+        <properties>
+          <icon value="img/L1.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
